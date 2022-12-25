@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    border: 1px solid;
+    padding: 1rem;
+    border-color: transparent;
+    box-shadow: 3px 3px 10px black;
+}
+
+.container {
+    position: relative;
+    top: 25rem;
+    text-align: center;
+}
+
+p {
+    font-size: 4.5rem;
+    background-color: black;
+    width: 31%;
+    padding: 5px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 7px;
+}
+
+button {
+    position: relative;
+    padding: 12px 2rem;
+    font-size: 2.5rem;
+    top: 2rem;
+    border-radius: 7px;
+    width: 10%;
+    background-color: transparent;
+}
